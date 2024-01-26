@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GlamCar Spa</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner h-100">
+                <div class="carousel-item carousel-img-one active">
+                    <div
+                        class="carousel-caption h-100 p-5 d-flex flex-column justify-content-center align-items-center align-items-lg-start z-1">
+                        <p class="mb-1 fs-4 text-decoration-underline">Witamy w GlamCar Spa</p>
+                        <h1>Twoje auto jak z salonu</h1>
+                        <p class="m-0 d-none d-lg-block fs-5 description">W naszej myjni samochodowej zapewniamy
+                            niezrównany połysk,
+                            odtwarzając efekt świeżości jak z salonu. Dzięki naszym profesjonalnym detalistom, dbamy o
+                            każdy detal, aby Twoje auto prezentowało się nie tylko lśniąco, ale wręcz olśniewająco.
+                        </p>
+                        <button type="button" class="btn btn-primary fs-4">Sprawdź nas</button>
+                    </div>
+                    <div class="hero-shadow"></div>
+                </div>
+                <div class="carousel-item carousel-img-two">
+                    <div
+                        class="carousel-caption h-100 p-5 d-flex flex-column justify-content-center align-items-center align-items-lg-start z-1">
+                        <p class="mb-1 fs-4 text-decoration-underline">Witamy w GlamCar Spa</p>
+                        <h1>Twoja lokalna myjnia</h1>
+                        <p class="m-0 d-none d-lg-block fs-5 description">Wybierz najbliższą myjnię samochodową, która
+                            staje się
+                            lokalnym miejscem troski o Twoje auto. Z nami nie tylko oczekujesz czystości - doświadczysz
+                            autentycznego zainteresowania Twoim pojazdem. Nasza lokalna myjnia to nie tylko usługi, ale
+                            także wspólnota z pasją do samochodów.</p>
+                        <button type="button" class="btn btn-primary fs-4">Sprawdź nas</button>
+                    </div>
+                    <div class="hero-shadow"></div>
+                </div>
+                <div class="carousel-item carousel-img-three">
+                    <div
+                        class="carousel-caption h-100 p-5 d-flex flex-column justify-content-center align-items-center align-items-lg-start z-1">
+                        <p class="mb-1 fs-4 text-decoration-underline">Witamy w GlamCar Spa</p>
+                        <h1>Przywróć blask swojemu autu</h1>
+                        <p class="m-0 d-none d-lg-block fs-5 description">Przywracamy blask Twojego pojazdu, oferując
+                            nie tylko zwykłe usługi mycia samochodu, ale prawdziwe doświadczenie sztuki czystości. Nasza
+                            myjnia samochodowa to miejsce, gdzie detale stają się sztuką, a proces przywracania blasku
+                            staje
+                            się pasją.</p>
+                        <button type="button" class="btn btn-primary fs-4">Sprawdź nas</button>
+                    </div>
+                    <div class="hero-shadow"></div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </header>
+    <nav class="navbar fixed-top navbar-expand-lg bg-dark py-3">
+        <div class="container">
+            <a class="navbar-brand text-light fs-3 d-lg-none" href="#">
+                <img src="./img/car-wash.svg">
+                Glam<span class="text-primary">Car</span> SPA
+            </a>
+            <button class="navbar-toggler bg-primary px-2 fs-4" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav d-flex justify-content-center w-100 fs-3 p-1">
+                    <a class="nav-link active text-primary mx-5" href="#">Home</a>
+                    <a class="nav-link text-primary mx-5" href="#">O firmie</a>
+                    <a class="nav-link text-primary mx-5" href="#">Cennik</a>
+                    <a class="nav-link text-primary mx-5" href="#">Kontakt</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <section class="about-us py-5 px-3">
+            <div class="container py-5">
+                <h2 class="fw-bold">O firmie</h2>
+                <div class="row mt-5">
+                    <div class="washing col-md-3"></div>
+                    <div class="col-md-9 px-5 d-flex flex-column justify-content-evenly">
+                        <p class="fs-4 m-0 mt-4 mt-md-0 mb-md-5">
+                            Zanurz się w świecie doskonałości samochodowej pielęgnacji w naszej myjni! Oferujemy nie
+                            tylko perfekcyjne mycie, ale również kompleksowe detale, które przywrócą blask Twojego
+                            pojazdu. Nasza pasja do doskonałości oznacza, że ​​każdy detal liczy się. Od świeżości
+                            wnętrza po lśniący lakier, zapewnimy Twojemu samochodowi najwyższy standard pielęgnacji.
+                            Poznaj naszą myjnię, gdzie czystość staje się sztuką, a twój pojazd zasługuje na najwyższe
+                            standardy pielęgnacji.
+                        </p>
+                        <div class="row mt-5 mt-md-0">
+                            <div class="col d-flex justify-content-center justify-content-lg-start align-items-center">
+                                <p class="m-0 fs-5 text-muted">W każdy wtorek i piątek detailing wnętrza -30%</p>
+                            </div>
+                            <div class="col d-flex justify-content-end justify-content-lg-center align-items-center">
+                                <button type="button" class="btn contact-btn btn-primary">Kontakt</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,180 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+	font-family: "Montserrat", sans-serif;
+}
+
+.hero-shadow {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-color: rgba(0, 0, 0, 0.7);
+	z-index: 0;
+}
+
+/* header */
+
+.header {
+	position: relative;
+	margin-top: 45px;
+}
+
+.carousel {
+	height: 300px;
+}
+
+.carousel .carousel-item {
+	height: 100%;
+	background-size: cover;
+	background-position: center;
+}
+
+.carousel .carousel-caption {
+	color: white;
+}
+
+.carousel .carousel-item .carousel-caption .btn {
+	margin-top: 2.75em;
+	padding: 0.4em 0.9em;
+}
+
+.carousel .carousel-item h1 {
+	font-size: 2.5rem;
+}
+
+.carousel .carousel-item .description {
+	text-align: left;
+	padding-right: 35em;
+	color: rgb(208, 208, 208);
+}
+
+.carousel .carousel-img-one {
+	background-image: url("../img/audi-small.jpg");
+	background-position: center;
+}
+
+.carousel .carousel-img-two {
+	background-image: url("../img/mustang-small.jpg");
+}
+
+.carousel .carousel-img-three {
+	background-image: url("../img/hyundai-small.jpg");
+}
+
+.carousel .carousel-img-two,
+.carousel .carousel-img-three {
+	background-position: center;
+}
+
+.hero-text {
+	position: absolute;
+	top: 50%;
+	left: 25%;
+	transform: translate(-50%, -50%);
+	z-index: 1;
+}
+
+.logo {
+	opacity: 0.9;
+}
+
+.logo img {
+	width: 18px;
+	height: 18px;
+}
+
+/* nav */
+
+.navbar-brand img {
+	width: 25px;
+	height: 25px;
+}
+
+.nav-link:hover {
+	color: rgb(11, 59, 200) !important;
+}
+
+/* aboutus section */
+
+.about-us h2 {
+	font-size: 2.5rem;
+}
+
+.washing {
+	height: 200px;
+	background-image: url("../img/profesjonalna-myjka-w-niebieskim-mundurze-myjaca-luksusowy-samochod-z-pistoletem-na-wode-na-myjni-samochodowej-na-swiezym-powietrzu.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.contact-btn {
+	padding: 0.3em 0.8em;
+	font-size: 1.5rem;
+}
+
+@media (min-width: 768px) {
+	.carousel {
+		height: 400px;
+	}
+
+	.carousel .carousel-item h1 {
+		font-size: 3.5rem;
+	}
+
+	.washing {
+		height: 250px;
+	}
+}
+
+@media (min-width: 992px) {
+	.header {
+		margin-top: 0;
+	}
+
+	.carousel {
+		height: 500px;
+	}
+
+	.carousel .carousel-img-one {
+		background-image: url("../img/audi-large.jpg");
+		background-position: 0 75%;
+	}
+
+	.carousel .carousel-img-two {
+		background-image: url("../img/mustang-large.jpg");
+	}
+
+	.carousel .carousel-img-three {
+		background-image: url("../img/hyundai-large.jpg");
+	}
+
+	.carousel .carousel-img-two,
+	.carousel .carousel-img-three {
+		background-position: 0 60%;
+	}
+
+	.carousel-control-next-icon,
+	.carousel-control-prev-icon {
+		width: 25px;
+		height: 25px;
+	}
+
+	.navbar {
+		position: static;
+	}
+
+	.contact-btn {
+		padding: 0.8em 2.5em;
+		font-size: 1.5rem;
+	}
+}
