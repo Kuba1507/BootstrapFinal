@@ -149,6 +149,7 @@ hr {
 
 .price-list {
 	margin-top: 8em;
+	padding: 2em 0 6em 0;
 }
 
 .price-list i {
@@ -161,6 +162,10 @@ hr {
 
 .service-card hr {
 	width: 90%;
+}
+
+.service-card {
+	margin-top: 5em;
 }
 
 @media (min-width: 768px) {
@@ -217,5 +222,13 @@ hr {
 	.contact-btn {
 		padding: 0.8em 2.5em;
 		font-size: 1.5rem;
+	}
+
+	.main-card {
+		transform: scale(1.08);
+	}
+
+	.service-card {
+		margin-top: 3em;
 	}
 }
