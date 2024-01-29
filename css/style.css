@@ -106,7 +106,7 @@ body {
 
 /* aboutus section */
 
-.about-us h2 {
+h2 {
 	font-size: 2.5rem;
 }
 
@@ -136,6 +136,31 @@ body {
 	font-size: 2.5rem;
 	font-weight: 300;
 	font-style: italic;
+}
+
+/* price list */
+
+hr {
+	color: gray;
+	border-style: inset;
+	border-width: 1px;
+	margin: 0.5em auto;
+}
+
+.price-list {
+	margin-top: 8em;
+}
+
+.price-list i {
+	font-size: 4rem;
+}
+
+.service-card {
+	border: 1px solid black;
+}
+
+.service-card hr {
+	width: 90%;
 }
 
 @media (min-width: 768px) {
