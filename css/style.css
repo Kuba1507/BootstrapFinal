@@ -168,6 +168,12 @@ hr {
 	margin-top: 5em;
 }
 
+/* contact */
+
+.contact label {
+	font-size: 1.4rem;
+}
+
 @media (min-width: 768px) {
 	.carousel {
 		height: 400px;
