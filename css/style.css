@@ -112,6 +112,7 @@ body {
 
 .washing {
 	height: 200px;
+	max-width: 90%;
 	background-image: url("../img/profesjonalna-myjka-w-niebieskim-mundurze-myjaca-luksusowy-samochod-z-pistoletem-na-wode-na-myjni-samochodowej-na-swiezym-powietrzu.jpg");
 	background-size: cover;
 	background-position: center;
@@ -120,6 +121,21 @@ body {
 .contact-btn {
 	padding: 0.3em 0.8em;
 	font-size: 1.5rem;
+}
+
+.about-photo {
+	position: relative;
+	height: 300px;
+	background-image: url("../img/wash-1.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.about-photo p {
+	position: relative;
+	font-size: 2.5rem;
+	font-weight: 300;
+	font-style: italic;
 }
 
 @media (min-width: 768px) {
